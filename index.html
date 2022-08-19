@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="main.css">
+<script src="main.js"></script>
+<title>Art API</title>
+</head>
+<body>
+    <h1 class="text-center">Art API</h1>
+    <section>
+        <div class="container border col-10 py-5 my-5">
+            <div class="row d-flex text-center">
+                <div class="col-4 img-div"  onclick="mouseEvent('desc-1', '/24645')" onmouseleave="clearEvent('desc-1')">
+                    <img src="images/fuji.jpg" alt="The Great Wave" class="img-fluid">
+                    <article id="desc-1"></article>
+                </div>
+                <div class="col-4 img-div"  onclick="mouseEvent('desc-2', '/14598')" onmouseleave="clearEvent('desc-2')">
+                    <img src="images/beach.jpg" alt="The Beach at Sainte-Adresse" class="img-fluid">
+                    <article id="desc-2"></article>
+                </div>
+                <div class="col-3 img-div" onclick="mouseEvent('desc-3', '/61428')" onmouseleave="clearEvent('desc-3')">
+                    <img src="images/skull.jpg" alt="Cow's Skull with Calico Roses" class="img-fluid" >
+                    <article id="desc-3"></article>
+                </div>
+            </div>
+        </div>
+        <div class="container border col-10">
+            <div class="row d-flex text-center">
+                <div class="col-4 img-div" onclick="mouseEvent('desc-4', '/105203')" onmouseleave="clearEvent('desc-4')">
+                    <article id="desc-4 "></article>
+                    <img src="images/window.jpg" alt="Window from Coonley Playhouse, Riverside, Illinois" class="img-fluid" >
+                    
+                </div>
+                <div class="col-4 img-div" onclick="mouseEvent('desc-5', '/111654')" onmouseleave="clearEvent('desc-5')">
+                    <article id="desc-5"></article>
+                    <img src="images/police.jpg" alt="The Policeman" class="img-fluid" >
+                    
+                </div>
+                <div class="col-3 img-div" onclick="mouseEvent('desc-6', '/185905')" onmouseleave="clearEvent('desc-6')">
+                    <article id="desc-6"></article>
+                    <img src="images/lamp.jpg" alt="Hanging Head Dragonfly Shade on Mosaic and Turtleback Base" class="img-fluid">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+        
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
